@@ -912,10 +912,17 @@ span .map-macamot-pin:hover{
         font-size: 1.5rem;
         margin-top: 90vh; 
     }
+
     span .map-rayap-pin{
         margin-left: 78vw;
         font-size: 1.5rem;
         margin-top: 86vh; 
+    }
+
+    span .map-macamot-pin{
+        margin-left: 55vw;
+        font-size: 1.5rem;
+        margin-top: 36.5vh; 
     }
     
 }
