@@ -1,20 +1,20 @@
 document.addEventListener("DOMContentLoaded", function(event){
     var w = window.innerWidth;
     if(w > 600){
-        document.getElementById("binangonan-map").src = "images/binangonan_map.png";
+        document.getElementById("binangonan-map").src = "images/binangonan_map.PNG";
     }
     else{
-        document.getElementById("binangonan-map").src = "images/binangonan_map_vertical.png";
+        document.getElementById("binangonan-map").src = "images/binangonan_map_vertical.PNG";
     }
 });
 
 window.addEventListener('resize', function(event){
     var w = window.innerWidth;
     if(w > 600){
-        document.getElementById("binangonan-map").src = "images/binangonan_map.png";
+        document.getElementById("binangonan-map").src = "images/binangonan_map.PNG";
     }
     else{
-        document.getElementById("binangonan-map").src = "images/binangonan_map_vertical.png";
+        document.getElementById("binangonan-map").src = "images/binangonan_map_vertical.PNG";
     }
 });
 
