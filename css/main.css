@@ -1,0 +1,965 @@
+*{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+#nav-title{
+    font-size: 1.5rem;
+}
+
+/* INDEX PAGE */
+
+.carousel-item{
+    height: 100vh;
+}
+
+.carousel-indicators li{
+    background-color: red;
+    height: 1vh;
+}
+
+.carousel-indicators li.active{
+    background-color: yellow;
+    height: 1vh;
+}
+
+.carousel-control-prev-icon{
+    background-color: red;
+}
+
+.carousel-control-next-icon{
+    background-color: red;
+}
+
+/* MAP PAGE */
+.map-container{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.binangonan-map{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+span .map-pagasa-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 16vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 83vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-pagasa-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-sancarlos-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 19vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 78.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-sancarlos-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-tagpos-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 21.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 77.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-tagpos-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-bilibiran-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 15vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 65vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-bilibiran-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-tayuman-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 24vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 71vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-tayuman-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-palangoy-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 25.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 58vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-palangoy-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-pantok-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 32vw;
+    margin-top: 31vh;
+    position: absolute;
+    z-index: 3;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-pantok-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-kalawaan-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 36vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 40vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-kalawaan-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-tatala-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 38vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 42vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-tatala-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-calumpang-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 36.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 55vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-calumpang-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-layunan-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 38.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 51.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-layunan-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-libis-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 40vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 52.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-libis-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-batingan-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 39.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 47.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-batingan-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-mambog-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 40vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 38vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-mambog-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-parang-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 42vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 39vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-parang-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-libid-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 41.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 51.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-libid-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-lunsad-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 43.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 43.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-lunsad-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-pilapila-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 46vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 39vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-pilapila-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-limbon-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 48.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 38vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-limbon-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-ithan-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 51.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 40.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-ithan-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-kalinawan-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 53.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 37.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-kalinawan-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-pipindan-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 55vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 37vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-pipindan-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-kasile-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 60.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 31vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-kasile-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-bombong-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 62.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 31vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-bombong-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-kinaboogan-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 64.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 31.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-kinaboogan-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-kinagatan-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 66vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 30.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-kinagatan-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-bangad-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 67.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 32vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-bangad-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-buhangin-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 69.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 31.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-buhangin-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-janosa-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 71vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 30vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-janosa-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-kaytome-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 72.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 31.8vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-kaytome-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-gulod-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 74.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 30.4vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-gulod-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-sapang-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 76vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 34vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-sapang-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-malakaban-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 78vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 32.4vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-malakaban-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-pinagdilawan-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 80vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 32vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-pinagdilawan-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-sanay-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 82vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 31vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-sanay-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-binitagan-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 84vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 29vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-binitagan-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-tabon-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 85.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 26.5vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-tabon-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-habagatan-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 91vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 23vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-habagatan-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-rayap-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 89vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 19vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-rayap-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+span .map-macamot-pin{
+    color: red;
+    font-size: 2rem;
+    margin-left: 39.5vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 41vh;
+    transform: translateX(-1rem);
+    opacity: 0.7;
+}
+
+span .map-macamot-pin:hover{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+
+@media screen and (max-width:600px){
+    span .map-pagasa-pin{
+        margin-left: 13vw;
+        font-size: 1.5rem;
+        margin-top: 12.5vh;
+    }
+
+    span .map-sancarlos-pin{
+        margin-left: 17.5vw;
+        font-size: 1.5rem;
+        margin-top: 15.5vh;
+    }
+
+    span .map-tagpos-pin{
+        margin-left: 21vw;
+        font-size: 1.5rem;
+        margin-top: 16.5vh;
+    }
+
+    span .map-bilibiran-pin{
+        margin-left: 33vw;
+        font-size: 1.5rem;
+        margin-top: 10vh;
+    }
+
+    span .map-tayuman-pin{
+        margin-left: 25vw;
+        font-size: 1.5rem;
+        margin-top: 20vh;
+    }
+
+    span .map-palangoy-pin{
+        margin-left: 37vw;
+        font-size: 1.5rem;
+        margin-top: 21vh;
+    }
+
+    span .map-pantok-pin{
+        margin-left: 64vw;
+        font-size: 1.5rem;
+        margin-top: 28.5vh;
+    }
+
+    span .map-kalawaan-pin{
+        margin-left: 55vw;
+        font-size: 1.5rem;
+        margin-top: 33vh;
+    }
+
+    span .map-tatala-pin{
+        margin-left: 52.5vw;
+        font-size: 1.5rem;
+        margin-top: 35vh;
+    }
+
+    span .map-calumpang-pin{
+        margin-left: 42vw;
+        font-size: 1.5rem;
+        margin-top: 34vh;
+    }
+
+    span .map-layunan-pin{
+        margin-left: 47vw;
+        font-size: 1.5rem;
+        margin-top: 35.5vh;
+    }
+    span .map-libis-pin{
+        margin-left: 45vw;
+        font-size: 1.5rem;
+        margin-top: 37.5vh;
+    }
+
+    span .map-batingan-pin{
+        margin-left: 50vw;
+        font-size: 1.5rem;
+        margin-top: 36.5vh;
+    }
+
+    span .map-mambog-pin{
+        margin-left: 59vw;
+        font-size: 1.5rem;
+        margin-top: 38vh;
+    }
+
+    span .map-parang-pin{
+        margin-left: 57.5vw;
+        font-size: 1.5rem;
+        margin-top: 40.5vh;
+    }
+
+    span .map-libid-pin{
+        margin-left: 47vw;
+        font-size: 1.5rem;
+        margin-top: 39.5vh;
+    }
+
+    span .map-lunsad-pin{
+        margin-left: 54.5vw;
+        font-size: 1.5rem;
+        margin-top: 41.5vh;
+    }
+
+    span .map-pilapila-pin{
+        margin-left: 58vw;
+        font-size: 1.5rem;
+        margin-top: 43.2vh;
+    }
+
+    span .map-limbon-pin{
+        margin-left: 59.5vw;
+        font-size: 1.5rem;
+        margin-top: 45.5vh;
+    }
+
+    span .map-ithan-pin{
+        margin-left: 55.5vw;
+        font-size: 1.5rem;
+        margin-top: 48.3vh;
+    }
+
+    span .map-kalinawan-pin{
+        margin-left: 59.5vw;
+        font-size: 1.5rem;
+        margin-top: 50.5vh;
+    }
+
+    span .map-pipindan-pin{
+        margin-left: 59.5vw;
+        font-size: 1.5rem;
+        margin-top: 52.5vh;
+    }
+
+    span .map-kasile-pin{
+        margin-left: 65vw;
+        font-size: 1.5rem;
+        margin-top: 58vh;
+    }
+
+    span .map-bombong-pin{
+        margin-left: 66.5vw;
+        font-size: 1.5rem;
+        margin-top: 60vh;
+    }
+
+    span .map-kinaboogan-pin{
+        margin-left: 64.5vw;
+        font-size: 1.5rem;
+        margin-top: 62vh;
+    }
+
+    span .map-kinagatan-pin{
+        margin-left: 66.5vw;
+        font-size: 1.5rem;
+        margin-top: 63.5vh;
+    }
+
+    span .map-bangad-pin{
+        margin-left: 64.5vw;
+        font-size: 1.5rem;
+        margin-top: 65vh;
+    }
+
+    span .map-buhangin-pin{
+        margin-left: 66vw;
+        font-size: 1.5rem;
+        margin-top: 67vh;
+    }
+
+    span .map-janosa-pin{
+        margin-left: 64vw;
+        font-size: 1.5rem;
+        margin-top: 68.5vh;
+    }
+
+    span .map-kaytome-pin{
+        margin-left: 66.5vw;
+        font-size: 1.5rem;
+        margin-top: 70vh;
+    }
+
+    span .map-gulod-pin{
+        margin-left: 65.5vw;
+        font-size: 1.5rem;
+        margin-top: 72.5vh;
+    }
+
+    span .map-sapang-pin{
+        margin-left: 62.5vw;
+        font-size: 1.5rem;
+        margin-top: 74.5vh;
+    }
+
+    span .map-malakaban-pin{
+        margin-left: 65vw;
+        font-size: 1.5rem;
+        margin-top: 76vh; 
+    }
+
+    span .map-pinagdilawan-pin{
+        margin-left: 63vw;
+        font-size: 1.5rem;
+        margin-top: 77.5vh; 
+    }
+
+    span .map-sanay-pin{
+        margin-left: 64.5vw;
+        font-size: 1.5rem;
+        margin-top: 79.5vh; 
+    }
+
+    span .map-binitagan-pin{
+        margin-left: 67.5vw;
+        font-size: 1.5rem;
+        margin-top: 82vh; 
+    }
+
+    span .map-tabon-pin{
+        margin-left: 69vw;
+        font-size: 1.5rem;
+        margin-top: 83.5vh; 
+    }
+
+    span .map-habagatan-pin{
+        margin-left: 72vw;
+        font-size: 1.5rem;
+        margin-top: 90vh; 
+    }
+    span .map-rayap-pin{
+        margin-left: 78vw;
+        font-size: 1.5rem;
+        margin-top: 86vh; 
+    }
+    
+}
+
+/* ABOUT PAGE */
+.raja {
+    text-align: center;
+    top:5rem;
+    margin-top: 2vh;
+    font-style: italic;
+}
+
+.raja img{
+    width: 100%;
+}
+
+.raja h3{
+    font-size: 1.3rem;
+}
+/* .vergel {
+    width: 25%;
+    height: 40rem;
+    background-color: lightcoral;
+    top: 200px;
+    font-style: italic;
+    color:yellowgreen;
+    
+}
+.ace {
+    width: 25%;
+    height: 40rem;
+    background-color: lightcoral;
+    top:200px;
+    font-style: italic;
+    color:yellowgreen;
+    
+}
+.josh {
+    posi
+    width: 25%;
+    height: 40rem;
+    background-color: lightcoral;
+    top:200px;
+    font-style: italic;
+    color:yellowgreen;
+    
+} */

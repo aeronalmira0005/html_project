@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BINANGONAN RIZAL | Map</title>
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- JQuery UI CDN -->
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js" integrity="sha256-xH4q8N0pEzrZMaRmd7gQVcTZiFei+HfRTBPJ1OGXC0k=" crossorigin="anonymous"></script>
+    
+    <!-- BOOTSTRAP 4 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a id="nav-title" class="navbar-brand" href="index.html"><b>BINANGONAN RIZAL</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><b>MAP</b><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>HISTORY</b><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutpage.html"><b>About Page</b><span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid map-container">
+        <img id ="binangonan-map" class="binangonan-map" src="" alt="">
+        <div class="container-pagasa-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-pagasa-pin" id="pagasa-pin"></i></a></span>
+        </div>
+        <div class="container-sancarlos-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-sancarlos-pin" id="sancarlos-pin"></i></a></span>
+        </div>
+        <div class="container-tagpos-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-tagpos-pin" id="tagpos-pin"></i></a></span>
+        </div>
+        <div class="container-bilibiran-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-bilibiran-pin" id="bilibiran-pin"></i></a></span>
+        </div>
+        <div class="container-tayuman-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-tayuman-pin" id="tayuman-pin"></i></a></span>
+        </div>
+        <div class="container-palangoy-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-palangoy-pin" id="palangoy-pin"></i></a></span>
+        </div>
+        <div class="container-pantok-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-pantok-pin" id="pantok-pin"></i></a></span>
+        </div>
+        <div class="container-kalawaan-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-kalawaan-pin" id="kalawaan-pin"></i></a></span>
+        </div>
+        <div class="container-tatala-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-tatala-pin" id="tatala-pin"></i></a></span>
+        </div>
+        <div class="container-calumpang-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-calumpang-pin" id="calumpang-pin"></i></a></span>
+        </div>
+        <div class="container-layunan-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-layunan-pin" id="layunan-pin"></i></a></span>
+        </div>
+        <div class="container-libis-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-libis-pin" id="libis-pin"></i></a></span>
+        </div>
+        <div class="container-batingan-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-batingan-pin" id="batingan-pin"></i></a></span>
+        </div>
+        <div class="container-mambog-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-mambog-pin" id="mambog-pin"></i></a></span>
+        </div>
+        <div class="container-parang-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-parang-pin" id="parang-pin"></i></a></span>
+        </div>
+        <div class="container-libid-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-libid-pin" id="libid-pin"></i></a></span>
+        </div>
+        <div class="container-lunsad-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-lunsad-pin" id="lunsad-pin"></i></a></span>
+        </div>
+        <div class="container-pilapila-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-pilapila-pin" id="pilapila-pin"></i></a></span>
+        </div>
+        <div class="container-limbon-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-limbon-pin" id="limbon-pin"></i></a></span>
+        </div>
+        <div class="container-ithan-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-ithan-pin" id="ithan-pin"></i></a></span>
+        </div>
+        <div class="container-kalinawan-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-kalinawan-pin" id="kalinawan-pin"></i></a></span>
+        </div>
+        <div class="container-pipindan-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-pipindan-pin" id="pipindan-pin"></i></a></span>
+        </div>
+        <div class="container-kasile-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-kasile-pin" id="kasile-pin"></i></a></span>
+        </div>
+        <div class="container-bombong-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-bombong-pin" id="bombong-pin"></i></a></span>
+        </div>
+        <div class="container-kinaboogan-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-kinaboogan-pin" id="kinaboogan-pin"></i></a></span>
+        </div>
+        <div class="container-kinagatan-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-kinagatan-pin" id="kinagatan-pin"></i></a></span>
+        </div>
+        <div class="container-bangad-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-bangad-pin" id="bangad-pin"></i></a></span>
+        </div>
+        <div class="container-buhangin-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-buhangin-pin" id="buhangin-pin"></i></a></span>
+        </div>
+        <div class="container-janosa-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-janosa-pin" id="janosa-pin"></i></a></span>
+        </div>
+        <div class="container-kaytome-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-kaytome-pin" id="kaytome-pin"></i></a></span>
+        </div>
+        <div class="container-gulod-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-gulod-pin" id="gulod-pin"></i></a></span>
+        </div>
+        <div class="container-sapang-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-sapang-pin" id="sapang-pin"></i></a></span>
+        </div>
+        <div class="container-malakaban-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-malakaban-pin" id="malakaban-pin"></i></a></span>
+        </div>
+        <div class="container-pinagdilawan-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-pinagdilawan-pin" id="pinagdilawan-pin"></i></a></span>
+        </div>
+        <div class="container-sanay-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-sanay-pin" id="sanay-pin"></i></a></span>
+        </div>
+        <div class="container-binitagan-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-binitagan-pin" id="binitagan-pin"></i></a></span>
+        </div>
+        <div class="container-tabon-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-tabon-pin" id="tabon-pin"></i></a></span>
+        </div>
+        <div class="container-habagatan-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-habagatan-pin" id="habagatan-pin"></i></a></span>
+        </div>
+        <div class="container-rayap-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-rayap-pin" id="rayap-pin"></i></a></span>
+        </div>
+        <div class="container-macamot-pin">
+          <span><a href="#"><i class="fas fa-map-pin map-macamot-pin" id="macamot-pin"></i></a></span>
+        </div>
+      </div>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
